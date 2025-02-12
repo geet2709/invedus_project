@@ -6,6 +6,24 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.10.0"
-  }
+    "mongoose": "^8.10.0",
+    "project_invedus": "file:"
+  },
+  "name": "project_invedus",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geet2709/invedus_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geet2709/invedus_project/issues"
+  },
+  "homepage": "https://github.com/geet2709/invedus_project#readme",
+  "description": ""
 }
