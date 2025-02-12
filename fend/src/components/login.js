@@ -13,7 +13,7 @@ function Login({ setUser }) {
       const response = await axios.post('http://localhost:5000/login', { username, password });
       if (response.data.token) {
           alert("Login completed")
-        localStorage.setItem('user', JSON.stringify({ username }));
+        localStorage.setItem('user', JSON.stringify ({ username, token: response.data.token }));
         setUser({ username });
         return <Navigate to='/dashboard'  />
       }
